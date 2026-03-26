@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<users>
+    <user>
+        <id>1</id>
+        <email>ivan@test.com</email>
+        <passwordHash>hash123</passwordHash>
+        <phone>0991112233</phone>
+        <roleId>1</roleId>
+    </user>
+    <user>
+        <id>2</id>
+        <email>admin@delivery.com</email>
+        <passwordHash>admin777</passwordHash>
+        <phone>0504445566</phone>
+        <roleId>2</roleId>
+    </user>
+    <user>
+        <id>5</id>
+        <email>random_email_e023c7f6@test.com</email>
+        <passwordHash>pass123</passwordHash>
+        <phone>000-000</phone>
+        <roleId>1</roleId>
+    </user>
+    <user>
+        <id>4</id>
+        <email>random_email_7c0fedd7@test.com</email>
+        <passwordHash>pass123</passwordHash>
+        <phone>000-000</phone>
+        <roleId>1</roleId>
+    </user>
+    <user>
+        <id>5</id>
+        <email>random_email_f9d3f593@test.com</email>
+        <passwordHash>pass123</passwordHash>
+        <phone>000-000</phone>
+        <roleId>1</roleId>
+    </user>
+</users>
