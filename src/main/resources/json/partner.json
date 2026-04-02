@@ -1,0 +1,22 @@
+[ {
+  "id" : 1,
+  "name" : "Golden Dragon",
+  "categoryId" : 10,
+  "addressId" : 20,
+  "rating" : 4.85,
+  "active" : true
+}, {
+  "id" : 1,
+  "name" : "Golden Dragon",
+  "categoryId" : 10,
+  "addressId" : 20,
+  "rating" : 4.85,
+  "active" : true
+}, {
+  "id" : 1,
+  "name" : "Golden Dragon",
+  "categoryId" : 10,
+  "addressId" : 20,
+  "rating" : 4.85,
+  "active" : true
+} ]

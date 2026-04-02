@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+
+    <xs:element name="partners">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="partner" maxOccurs="unbounded" minOccurs="0">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="id" type="xs:int"/>
+                            <xs:element name="name" type="xs:string"/>
+                            <xs:element name="categoryId" type="xs:int"/>
+                            <xs:element name="addressId" type="xs:int"/>
+                            <xs:element name="rating" type="xs:decimal"/>
+                            <xs:element name="isActive" type="xs:boolean"/>
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+
+</xs:schema>

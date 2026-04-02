@@ -2,10 +2,14 @@ package ua.solvd;
 
 import ua.solvd.controller.OrderController;
 import ua.solvd.controller.UserController;
+import ua.solvd.entity.Partner;
 import ua.solvd.entity.User;
+import ua.solvd.service.json.JacksonService;
+import ua.solvd.service.xml.JaxbPartnerService;
 import ua.solvd.service.xml.UserXmlService;
 import ua.solvd.util.EmailGenerator;
 
+import java.math.BigDecimal;
 import java.util.List;
 
 public class Main 
@@ -34,5 +38,11 @@ public class Main
         List<User> updatedUsers = xmlService.getAllUsers();
         System.out.println("The total number of users in the file is now: " + updatedUsers.size());
         updatedUsers.forEach(u -> System.out.println("- " + u.getEmail()));
+
+        Partner myPartner = new Partner(1, "Golden Dragon", 10, 20, new BigDecimal("4.85"), true);
+
+        new JaxbPartnerService().executeDemo(myPartner);
+
+        new JacksonService().executeDemo(myPartner);
     }
 }
